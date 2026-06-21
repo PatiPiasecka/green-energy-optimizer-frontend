@@ -1,6 +1,6 @@
 import type { DailyEnergyMix, OptimizationResult } from '../types/energy.ts';
 
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 // Function to fetch energy mix (first endpoint)
 export const fetchEnergyMix = async (): Promise<DailyEnergyMix[]> => {
