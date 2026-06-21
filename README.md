@@ -1,6 +1,6 @@
 # Green Energy Optimizer - Frontend
 
-React-based web application designed to visualize energy generation data and provide smart charging recommendations. The frontend fetches data from the Green Energy Optimizer API and presents users with eco-friendly energy consumption insights using an intuitive, responsive interface.
+React-based web application designed to visualize energy generation data and provide smart charging recommendations. The frontend fetches data from the Green Energy Optimizer API and presents users with intuitive dashboards and recommendations.
 
 ## Features
 
@@ -116,9 +116,7 @@ Returns the optimal charging window with the highest clean energy percentage.
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/demo.mp4
-
-<video src="./demo/demo.mp4" width="100%" controls></video>
+<video src=https://github.com/user-attachments/assets/7757bc1e-cf45-4b90-a4fe-b2342c26c221 width="800" controls autoplay loop muted></video>
 
 ## Project Structure
 
