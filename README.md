@@ -116,7 +116,7 @@ Returns the optimal charging window with the highest clean energy percentage.
 
 ## Demo Video
 
-<video src=https://github.com/user-attachments/assets/7757bc1e-cf45-4b90-a4fe-b2342c26c221 width="800" controls autoplay loop muted></video>
+<video src=https://github.com/user-attachments/assets/0429ac5a-fbaf-401c-92c8-e5c17199608e width="800" controls autoplay loop muted></video>
 
 ## Project Structure
 
