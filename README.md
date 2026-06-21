@@ -2,6 +2,8 @@
 
 React-based web application designed to visualize energy generation data and provide smart charging recommendations. The frontend fetches data from the Green Energy Optimizer API and presents users with intuitive dashboards and recommendations.
 
+[LINK](https://green-energy-optimizer.onrender.com/)
+
 ## Features
 
 - **Energy Mix Dashboard:** Visualizes real-time energy generation composition for multiple days with clean energy percentages.
