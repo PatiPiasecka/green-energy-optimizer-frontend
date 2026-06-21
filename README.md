@@ -122,7 +122,6 @@ Returns the optimal charging window with the highest clean energy percentage.
 
 ```
 green-energy-optimizer-frontend/
-├── demo/                            # Application demo video recording
 ├── src/
 │   ├── api/
 │   │   └── energyApi.ts             # API client for backend communication
