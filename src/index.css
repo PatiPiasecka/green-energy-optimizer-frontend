@@ -8,6 +8,7 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  background-color: #133658;
 }
 /* Shared Back to Home button container & styling */
 .back-btn-container {
