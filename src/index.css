@@ -1,1 +1,42 @@
 @import 'tailwindcss';
+
+html {
+  scrollbar-gutter: stable;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* Shared Back to Home button container & styling */
+.back-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+
+.back-btn {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #133658 !important;
+  background-color: #3bf68c;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(59, 246, 140, 0.2);
+}
+
+.back-btn:hover {
+  background-color: #5ff9a3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(59, 246, 140, 0.35);
+}

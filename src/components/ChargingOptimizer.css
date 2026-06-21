@@ -168,34 +168,3 @@
   max-height: 300px;
   opacity: 1;
 }
-
-/* ── Back Link ── */
-.back-link-left {
-  position: fixed;
-  bottom: 1.5rem;
-  left: 1.5rem;
-  width: max-content;
-  z-index: 10;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #133658;
-  background-color: var(--accent-color);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  transition: transform 0.2s ease;
-}
-
-.back-link-left:hover {
-  transform: translateY(-2px);
-}
-
-@media (max-width: 768px) {
-  .back-link-left {
-    position: static;
-    display: block;
-    width: fit-content;
-    margin: 2rem auto 0 auto;
-    text-align: center;
-  }
-}

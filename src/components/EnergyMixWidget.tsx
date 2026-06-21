@@ -82,9 +82,9 @@ export const EnergyMixWidget = () => {
   const days = data.slice(0, 3);
 
   return (
-    <div className={`mix-theme p-6 md:p-10 ${mounted ? '' : 'no-transition'}`}>
+    <div className={`mix-theme p-4 md:p-6 ${mounted ? '' : 'no-transition'}`}>
       {/* Header */}
-      <header className="flex flex-col items-center mb-8 gap-2">
+      <header className="flex flex-col items-center mb-4 gap-1">
         <h1 className="mix-title mt-2 text-center">Energy Mix Forecast</h1>
       </header>
 
@@ -125,8 +125,8 @@ export const EnergyMixWidget = () => {
                       nameKey="fuel"
                       cx="50%"
                       cy="50%"
-                      innerRadius={isActive ? 40 : 25}
-                      outerRadius={isActive ? 90 : 55}
+                      innerRadius={isActive ? '22%' : '15%'}
+                      outerRadius={isActive ? '80%' : '55%'}
                       strokeWidth={1}
                       stroke="var(--card-bg)"
                       isAnimationActive={false}
@@ -162,9 +162,11 @@ export const EnergyMixWidget = () => {
         })}
       </div>
 
-      <Link to="/" className="back-link-right">
-        Back to Home
-      </Link>
+      <div className="back-btn-container">
+        <Link to="/" className="back-btn">
+          Back to Home
+        </Link>
+      </div>
     </div>
   );
 };

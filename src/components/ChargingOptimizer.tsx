@@ -29,10 +29,10 @@ export const ChargingOptimizer = () => {
   };
 
   return (
-    <div className="calc-theme min-h-screen w-full flex flex-col p-4 sm:p-6 md:p-10">
+    <div className="calc-theme min-h-screen w-full flex flex-col p-4 sm:p-5 md:p-6">
       {/* Header */}
-      <header className="flex flex-col items-center mb-6 md:mb-10 gap-2">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center text-[var(--text-main)]">
+      <header className="flex flex-col items-center mb-4 md:mb-6 gap-1">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-[var(--text-main)]">
           Charging Optimizer
         </h1>
       </header>
@@ -133,9 +133,11 @@ export const ChargingOptimizer = () => {
         </div>
       </div>
 
-      <Link to="/" className="back-link-left">
-        Back to Home
-      </Link>
+      <div className="back-btn-container">
+        <Link to="/" className="back-btn">
+          Back to Home
+        </Link>
+      </div>
     </div>
   );
 };
